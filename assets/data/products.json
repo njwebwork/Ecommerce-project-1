@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 3,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 5,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 6,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 7,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 8,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 9,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 10,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 11,
+    "name": "Smartphone",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 500,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A high-end smartphone"
+  },
+  {
+    "id": 12,
+    "name": "Laptop",
+    "category": "electronics",
+    "device": "desktop",
+    "price": 1200,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A powerful laptop"
+  },
+  {
+    "id": 13,
+    "name": "Smartwatch",
+    "category": "electronics",
+    "device": "mobile",
+    "price": 250,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A sleek smartwatch"
+  },
+  {
+    "id": 14,
+    "name": "T-shirt",
+    "category": "fashion",
+    "device": "mobile",
+    "price": 20,
+    "image": "https://placehold.co/300x300.png",
+    "description": "A stylish T-shirt"
+  },
+  {
+    "id": 15,
+    "name": "Jeans",
+    "category": "fashion",
+    "device": "desktop",
+    "price": 40,
+    "image": "https://placehold.co/300x300.png",
+    "description": "Comfortable jeans"
+  }
+    ]
