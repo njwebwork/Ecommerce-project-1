@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  /* Backgrounds */
+  --background-light: #ffffff; /* Pure White - Light Mode Background */
+  --background-dark: #121212; /* Rich Black - Dark Mode Background */
+  /* Text Colors */
+  --text-primary-light: #333333; /* Dark Charcoal - Primary Text (Light Mode) */--text-secondary-light: #666666; /* Dim Gray - Secondary Text (Light Mode) */
+  --text-description-light: #aaaaaa; /* Light Gray - Description Text (Light Mode) */
+  --text-primary-dark: #e0e0e0; /* Light Gray - Primary Text (Dark Mode) */
+  --text-secondary-dark: #b0b0b0; /* Silver - Secondary Text (Dark Mode) */
+  --text-description-dark: #888888; /* Gray - Description Text (Dark Mode) */
+  /* Buttons */
+  --button-bg: #495057; /* Gunmetal Gray - Button Background */
+  --button-text: #ffffff; /* White - Button Text */
+  --button-border: #343a40; /* Charcoal - Button Border */
+  /* Logo Colors */
+  --logo-bg: #FFD700; /* Golden Yellow - Logo Background */
+  --logo-text: #333333; /* Dark Charcoal - Logo Text (Light Mode) */
+  /* Links */
+  --link-hover: #FF6600; /* Vibrant Orange - Link Hover Effect */
+  /* Alerts and Accents */
+  --success: #28a745; /* Green - Success Messages */
+  --warning: #ffc107; /* Amber - Warnings */
+  --danger: #dc3545; /* Red - Errors */
+  --info: #17a2b8; /* Cyan - Information */
+  /* Neutral Colors */
+  --card-bg-light: #f8f9fa; /* Ghost White - Light Mode Card Background */
+  --card-bg-dark: #343a40; /* Charcoal - Dark Mode Card Background */
+  --card-bg-secondary-dark: #495057; /* Charcoal - Dark Mode Card Background */
+  --border-light: #dee2e6; /* Light Gray - Light Mode Border */
+  --border-dark: #495057; /* Gunmetal Gray - Dark Mode Border */
+  /* Gradients */
+  --gradient-light: linear-gradient(135deg, #FFD700, #FF6600); /* Golden Yellow to Orange Gradient */
+  --gradient-dark: linear-gradient(135deg, #343a40, #495057); /* Charcoal to Gunmetal Gray Gradient */
+}
