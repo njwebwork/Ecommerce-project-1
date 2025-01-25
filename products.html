@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Product Card Slider</title>
+	<!-- Bootstrap CSS -->	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Font Awesome (for icons) -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+	<!-- web stylesheet -->
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+</head>
+<body>
+	<div class="main-container">
+		<div id="header"></div>
+		<div class="content mt-3">
+			<!-- product Slider container-->
+			<div class="container-xxl slider-container">
+				<!-- First product Slider -->
+				<div class="products-header">
+					<h3 class="">Category 1</h3>
+					<a href="products.html" class="px-3"><i class="fa fa-arrow-right"></i></a>
+				</div>
+				<div class="product-container product-grid" data-category="electronics" data-limit="8" data-row-id="row1" data-device="desktop">
+					<!-- Products will be dynamically added here -->
+				</div>
+
+				<!-- Second product Slider -->
+				<div class="products-header">
+					<h3 class="">Category 2</h3>
+					<a href="products.html" class="px-3"><i class="fa fa-arrow-right"></i></a>
+				</div>
+				<div class="product-container product-grid" data-category="electronics" data-limit="8" data-row-id="row1" data-device="desktop">
+					<!-- Products will be dynamically added here -->
+				</div>
+				<!-- More Cards -->
+			</div>
+			
+			<!-- product Category Slider -->
+			<div class="container-xxl my-3">
+				<div class="product-slider">
+					<!-- Card 1 -->
+					<div class="col-md-6 col-9">
+						<div class="collection-card">
+							<img src="./Images/img1.jpeg" alt="Collection 1">
+							<div class="gradient-overlay"></div>
+							<div class="card-content">
+								<h5>Collection 1</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Card 2 -->
+					<div class="col-md-6 col-9">
+						<div class="collection-card">
+							<img src="./Images/img2.jpeg" alt="Collection 1">
+							<div class="gradient-overlay"></div>
+							<div class="card-content">
+								<h5>Collection 2</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Card 3 -->
+					<div class="col-md-6 col-9">
+						<div class="collection-card">
+							<img src="./Images/img4.jpeg" alt="Collection 2">
+							<div class="gradient-overlay"></div>
+							<div class="card-content">
+								<h5>Collection 3</h5>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- product Slider container-->
+			<div class="container-xxl slider-container">
+				<!-- First product Slider -->
+				<div class="products-header">
+					<h3 class="">Category 3</h3>
+					<a href="products.html" class="px-3"><i class="fa fa-arrow-right"></i></a>
+				</div>
+				<div class="product-container product-grid" data-category="electronics" data-limit="8" data-row-id="row1" data-device="desktop">
+					<!-- Products will be dynamically added here -->
+				</div>
+
+				<!-- Second product Slider -->
+				<div class="products-header">
+					<h3 class="">Category 4</h3>
+					<a href="products.html" class="px-3"><i class="fa fa-arrow-right"></i></a>
+				</div>
+				<div class="product-container product-grid" data-category="electronics" data-limit="8" data-row-id="row1" data-device="desktop">
+					<!-- Products will be dynamically added here -->
+				</div>
+				<!-- More Cards -->
+			</div>
+		</div>
+		<div id="footer"></div>
+	</div>
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/script.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/js/load-layout.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

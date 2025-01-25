@@ -1,0 +1,42 @@
+<header class="header">
+	<!-- Logo -->
+	<a href="index.html" class="logo">Logo</a>
+	<!-- Icons and Sidebar Toggle -->
+	<div class="action-icons">
+		<a href="login/loginForm.html" title="Login"><i class="fa-solid fa-user"></i></a>
+		<a href="cart.html" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+		<a title="Open nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+			<i class="fa-solid fa-bars"></i>
+		</a>
+	</div>
+</header>
+
+<!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+	<div class="offcanvas-header">
+		<h5 class="offcanvas-title" id="offcanvasSidebarLabel"><a href="index.html" class="logo">Logo</a></h5>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<!-- Search Bar -->
+		<form class="d-flex search-bar" role="search">
+			<input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search">
+			<button class="btn btn-outline-warning" type="submit">Search</button>
+		</form>
+		<!-- Navigation Links -->
+		<nav class="nav flex-column">
+			<a href="index.html" class="nav-link"><i class="fa-solid fa-home me-2"></i>Home</a>
+			<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="collapse" data-bs-target="#productsMenu" aria-expanded="false" aria-controls="productsMenu">
+				<i class="fa-solid fa-box me-2"></i>Products
+			</a>
+			<div class="collapse" id="productsMenu">
+				<a href="products.html" class="dropdown-item">Category 1</a>
+				<a href="products.html" class="dropdown-item">Category 2</a>
+				<a href="products.html" class="dropdown-item">Category 3</a>
+			</div>
+			<a href="favorite-items.html" class="nav-link"><i class="fa-solid fa-heart me-2"></i>Favorites</a>
+			<a href="order-tracking.html" class="nav-link"><i class="fa-solid fa-truck me-2"></i>Order Tracking</a>
+			<a href="contact-us.html" class="nav-link"><i class="fa-solid fa-phone me-2"></i>Contact Us</a>
+		</nav>
+	</div>
+</div>
